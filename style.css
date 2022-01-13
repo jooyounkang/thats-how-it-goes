@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+
+}
+
+body{ 
+    background-image: url('background.png');
+    height: 5720px;
+}
+
+
+
+::-webkit-scrollbar {
+    background: #fff;
+    height: 10px;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    background: #e1e0f5;
+}
+
+.titlecircle {
+    width: 300px;
+    height: 170px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: column;
+    background-color: #ffffff5e;
+    position: absolute;
+    top: 80px;
+    right: 50%;
+    margin-right: -150px;
+}
+
+
+.title_lalala {
+
+    font-size: 8pt;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    text-decoration: wavy overline white 1px;
+
+}
+
+
+.title_thats {
+    font-family: 'EB Garamond', serif;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    text-decoration: wavy underline white 1px;
+
+
+
+}
+
+.title_by {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    padding-top: 20px;
+
+
+}
+
+.title_design {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 8pt;
+}
+
+
+.type1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32pt;
+}
+
+
+.circle {
+    position: absolute;
+    border: 1px solid #000;
+    top: 25px;
+    left: 25px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+#circle1{
+    width: 340px;
+    height: 300px;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgba(162, 164, 255, 0.411);
+}
+
+#circle2 {
+    width: 150px;
+    height: 100px;
+    background-color: #fff;
+}

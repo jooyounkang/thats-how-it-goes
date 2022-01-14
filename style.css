@@ -82,6 +82,18 @@ body{
 .type1{
     font-family: 'Roboto Mono', monospace;
     font-size: 32pt;
+    animation: circulate 10s linear infinite;
+
+}
+
+
+@keyframes circulate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -101,10 +113,30 @@ body{
     height: 300px;
     border: 0px solid rgb(0, 0, 0);
     background-color: rgba(162, 164, 255, 0.411);
+    animation: slide 5s alternate infinite;
+    z-index: 1;
+    
 }
+
+@keyframes slide {
+    0% {
+      transform: translateY(-30%);
+    }
+  
+    100% {
+      transform: translateY(30%);
+    }
+  }
+
 
 #circle2 {
     width: 150px;
     height: 100px;
     background-color: #fff;
+    animation: circulate 5s linear infinite;
+    left: 25%;
+    top: 4000px;
+
+
 }
+

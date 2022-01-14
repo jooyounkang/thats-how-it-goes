@@ -12,6 +12,7 @@
 body{ 
     background-image: url('background.png');
     height: 5720px;
+    position: relative;
 }
 
 
@@ -135,7 +136,7 @@ body{
     background-color: #fff;
     animation: circulate 5s linear infinite;
     left: 25%;
-    top: 4000px;
+    top: 90%;
 
 
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Roboto+Mono:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Beastly&display=swap');
 
 
 
@@ -13,8 +13,9 @@ body{
     background-image: url('background.png');
     height: 5720px;
     position: relative;
+    overflow-x: hidden; 
+    overflow-y: auto;
 }
-
 
 
 ::-webkit-scrollbar {
@@ -80,15 +81,104 @@ body{
 }
 
 
-.type1{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 32pt;
-    animation: circulate 10s linear infinite;
+
+
+.circle {
+    position: absolute;
+    border: 1px solid #fff;
+    top: 25px;
+    left: 25px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff5e;}
+
+.slide_updown{ 
+    animation: slide_updown 5s alternate infinite;
 
 }
 
+@keyframes slide_updown {
+    0% {
+      transform: translateY(-30%);
+    }
+  
+    100% {
+      transform: translateY(30%);
+    }
+}
 
-@keyframes circulate {
+.slide_side{
+    animation: slide_side 3s alternate infinite;
+}
+
+@keyframes slide_side {
+    0% {
+      transform: translateX(-50%);
+    }
+  
+    100% {
+      transform: translate(50%);
+    }
+}
+
+
+#circle1{
+    width: 340px;
+    height: 300px;
+    position: absolute;
+    left:5%;
+    top:30%;
+}
+
+#circle2 {
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(255, 79, 47);
+    background-color: #fff;
+    left: 25%;
+    top: 90%;
+
+}
+
+#circle3{
+    position: absolute;
+    background-color:rgba(255, 255, 213, 0.486);
+    left:5%;
+    top:9%;
+    z-index: 1;
+    width: 30px;
+    height:30px;
+}
+
+#circle4{
+    position: absolute;
+    background-color:rgba(127, 207, 218, 0.486);
+    left:17%;
+    top:10.5%;
+    z-index: 1;
+    width: 70px;
+    height: 70px;
+    animation: slide_side 4s alternate infinite;
+
+}
+
+#circle5{
+    position: absolute;
+    left:11%;
+    top:13%;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    animation: slide_side 2s alternate infinite;
+
+}
+
+.rotate{
+    animation: rotate 13s linear infinite;
+}
+
+@keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
@@ -97,47 +187,176 @@ body{
     }
 }
 
-
-.circle {
-    position: absolute;
-    border: 1px solid #000;
-    top: 25px;
-    left: 25px;
-    border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
+.pulse {
+    animation: pulse 3s infinite;
 }
 
-#circle1{
-    width: 340px;
-    height: 300px;
-    border: 0px solid rgb(0, 0, 0);
-    background-color: rgba(162, 164, 255, 0.411);
-    animation: slide 5s alternate infinite;
-    z-index: 1;
-    
-}
-
-@keyframes slide {
+@keyframes pulse {
     0% {
-      transform: translateY(-30%);
+      transform: scale(0.1, 0.1);
     }
-  
+    
+    50% {
+        transform: scale(1.2, 1.2);
+        opacity: 1.0;
+    }
+    
     100% {
-      transform: translateY(30%);
+      transform: scale(0.1, 0.1);
     }
   }
 
+#star1{
+    font-size: 120pt;
+    color:rgba(255, 255, 255, 0.267);
+    -webkit-text-stroke: 1px #fff;
+    position: absolute;
+    left:73%;
+    top:13%;
+}
 
-#circle2 {
-    width: 150px;
-    height: 100px;
-    background-color: #fff;
-    animation: circulate 5s linear infinite;
-    left: 25%;
-    top: 90%;
-
+#star2{
+    font-size: 70pt;
+    -webkit-text-stroke: 1px rgb(23, 119, 184);
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left:60%;
+    top:20%;    
 
 }
 
+#star3{
+    font-size: 70pt;
+    -webkit-text-stroke: 1px rgb(166, 255, 0);
+    color:rgba(255, 255, 255, 0.308);
+    position: absolute;
+    left:25%;
+    top:29%;  
+    z-index: 1;  
+
+}
+
+#star4{
+    font-size: 70pt;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left:18%;
+    top:24%;    
+
+}
+
+
+
+
+#type1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13pt;
+    z-index: 1;
+}
+
+#type2{ 
+    font-size: 8pt;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
+    text-decoration: wavy overline white 1px;
+    z-index: 1;
+    position: absolute;
+    top: 7%;
+    left: -3%;
+    animation: slide_side2 10s alternate infinite;
+}
+
+
+@keyframes slide_side2 {
+    0% {
+      transform: translateX(-10%);
+    }
+  
+    100% {
+      transform: translate(-3%);
+    }
+}
+
+#type3{ 
+    font-size: 8pt;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
+    text-decoration: dotted underline white 4px;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    animation: slide_updown 16s alternate infinite;
+
+}
+
+#type4{ 
+    font-family: 'Arbutus', cursive;
+    font-size: 24pt;
+    position: absolute;
+    left:5%;
+    top:9%;
+    color:rgb(243, 243, 243);
+}
+
+#type5{ 
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 70pt;
+    position: absolute;
+    left:17%;
+    top:10.5%;
+    color:rgba(95, 95, 95, 0);
+    -webkit-text-stroke: 1px rgb(255, 145, 0);
+
+}
+
+#type6{ 
+    font-family: 'Cutive Mono', monospace;
+    font-size: 10pt;
+    position: absolute;
+    left:11%;
+    top:13%;
+    color:rgb(0, 0, 0);
+}
+
+#type7{ 
+    font-family: 'EB Garamond', serif;
+    font-size: 80pt;
+    position: absolute;
+    left:35%;
+    top:17%;
+    color:#ffffff00;
+    -webkit-text-stroke: 2px rgb(251, 255, 0);
+}
+
+#type8{ 
+    font-family: 'Rubik Beastly', cursive;    
+    font-size: 80pt;
+    position: absolute;
+    left:45%;
+    top:15%;
+    color:#8383835e;
+    -webkit-text-stroke: 1px #fff;
+}
+
+#type9{ 
+    font-family: 'EB Garamond', serif;
+    font-size: 80pt;
+    position: absolute;
+    left:30%;
+    top:50%;
+    color:#00000000;
+    -webkit-text-stroke: 1px rgb(8, 120, 143);
+    transform-origin: 500px;
+}
+
+#type10{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100pt;
+    z-index: 1;
+    position: absolute;
+    left:55%;
+    top:28%;
+    animation: slide_updown 5s alternate infinite;
+    color:#ff75cab6;
+}

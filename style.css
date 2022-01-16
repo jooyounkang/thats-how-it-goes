@@ -245,7 +245,15 @@ body{
 
 }
 
-
+#star5{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:-20%;
+    top:6%;  
+    z-index: 1;  
+}
 
 
 #type1{
@@ -258,7 +266,8 @@ body{
     font-size: 8pt;
     font-family: 'EB Garamond', serif;
     letter-spacing: 10px;
-    text-decoration: wavy overline white 1px;
+    text-decoration: wavy overline rgb(75, 154, 179) 1px;
+    color:white;
     z-index: 1;
     position: absolute;
     top: 7%;
@@ -281,7 +290,7 @@ body{
     font-size: 8pt;
     font-family: 'EB Garamond', serif;
     letter-spacing: 10px;
-    text-decoration: dotted underline white 4px;
+    text-decoration: dotted underline rgb(75, 154, 179) 4px;
     z-index: 1;
     position: absolute;
     top: 10%;

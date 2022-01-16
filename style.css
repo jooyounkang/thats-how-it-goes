@@ -255,6 +255,73 @@ body{
     z-index: 1;  
 }
 
+#star6{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:60%;
+    top:27%;  
+}
+
+#star7{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:25%;
+    top:47%;  
+
+}
+
+#star8{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:39%;
+    top:60%;  
+    z-index: 0;  
+}
+
+#star9{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:-17%;
+    top:40%;  
+
+
+}
+
+#star10{
+    font-size: 1200pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:1%;
+    top:60%;  
+}
+
+
+#star11{
+    font-size: 120pt;
+    color:rgba(0, 255, 170, 0.267);
+    -webkit-text-stroke: 1px rgb(117, 117, 117);
+    position: absolute;
+    left:55%;
+    top:38%;
+}
+
+#star12{
+    font-size: 70pt;
+    -webkit-text-stroke: 1px rgb(105, 126, 29);
+    color:rgb(255, 255, 255);
+    position: absolute;
+    left:20%;
+    top:43%;    
+}
 
 #type1{
     font-family: 'Roboto Mono', monospace;
@@ -368,4 +435,40 @@ body{
     top:28%;
     animation: slide_updown 5s alternate infinite;
     color:#ff75cab6;
+}
+
+#type11{
+    font-size: 8pt;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 10px;
+    text-decoration: dotted overline rgb(255, 163, 120) 4px;
+    z-index: 1;
+    position: absolute;
+    top: 56%;
+    left: 5%;
+    animation: slide_updown 16s alternate infinite;
+
+}
+
+#type12{ 
+    font-family: 'Rubik Beastly', cursive;    
+    font-size: 40pt;
+    position: absolute;
+    left:67%;
+    top:85%;
+    color:#ffffff90;
+    -webkit-text-stroke: 1px rgb(123, 255, 0);
+}
+
+#type13{
+    font-family: 'EB Garamond', serif;
+    font-size: 14pt;
+    z-index: 1;
+    position: absolute;
+    left:25%;
+    top:35%;
+    color:#0084ffb6;
+    animation: slide_side 2s alternate infinite;
+    text-decoration: underline rgb(238, 255, 0) 2px;
+
 }

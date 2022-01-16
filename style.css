@@ -40,6 +40,14 @@ a:hover{
     background: #e1e0f5;
 }
 
+audio{
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 5%;
+}
+
+
 .titlecircle {
     width: 300px;
     height: 170px;
@@ -327,11 +335,11 @@ a:hover{
 }
 
 #star12{
-    font-size: 70pt;
+    font-size: 40pt;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
-    color:rgba(0, 0, 0, 0.479);
+    color:rgba(0, 0, 0, 0.185);
     position: absolute;
-    left:12%;
+    left:13%;
     top:42%;    
 }
 
@@ -504,3 +512,4 @@ a:hover{
     color:rgba(0, 0, 0, 0.171);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
+

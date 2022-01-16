@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Cormorant:ital,wght@1,600&family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Mea+Culpa&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Beastly&display=swap');
 
 
 
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;     
+    box-sizing: border-box; 
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur816.cur), auto !important;
+    
 
 }
 
@@ -17,6 +19,16 @@ body{
     overflow-y: auto;
 }
 
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover{
+    color: transparent; 
+    text-shadow: 0 0 2px #000; 
+    transition: all 250ms ease-in; 
+  }
 
 ::-webkit-scrollbar {
     background: #fff;
@@ -316,11 +328,21 @@ body{
 
 #star12{
     font-size: 70pt;
-    -webkit-text-stroke: 1px rgb(105, 126, 29);
-    color:rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.479);
     position: absolute;
-    left:20%;
-    top:43%;    
+    left:12%;
+    top:42%;    
+}
+
+#star13{
+    font-size: 120pt;
+    -webkit-text-stroke: 1px rgb(60, 255, 0);
+    color:rgba(255, 255, 255, 0.308);
+    position: absolute;
+    left:18%;
+    top:44%; 
+    z-index: 1;   
 }
 
 #type1{
@@ -451,13 +473,13 @@ body{
 }
 
 #type12{ 
-    font-family: 'Rubik Beastly', cursive;    
-    font-size: 40pt;
+    font-family: 'Cormorant', serif;
+    font-size: 80pt;
     position: absolute;
     left:67%;
     top:85%;
     color:#ffffff90;
-    -webkit-text-stroke: 1px rgb(123, 255, 0);
+    -webkit-text-stroke: 1px rgb(121, 155, 89);
 }
 
 #type13{
@@ -471,4 +493,14 @@ body{
     animation: slide_side 2s alternate infinite;
     text-decoration: underline rgb(238, 255, 0) 2px;
 
+}
+
+#type14{
+    font-family: 'Mea Culpa', cursive;
+    position: absolute;
+    left:25%;
+    top:45%;
+    font-size: 60pt;
+    color:rgba(0, 0, 0, 0.171);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }

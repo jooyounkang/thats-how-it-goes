@@ -676,14 +676,15 @@ audio{
 }
 
 #type20{
-    font-family: 'Knewave', cursive;
+    font-family: 'Roboto Mono', monospace;
     font-size:50pt;
     position: absolute;
     left:76%;
     top:66%;
     color:rgb(255, 255, 255);
     z-index: 0;
-    
+    animation: slide_side 6s alternate infinite;
+
 }
 
 #type21{

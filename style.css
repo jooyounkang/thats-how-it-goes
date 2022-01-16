@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Cormorant:ital,wght@1,600&family=Cutive+Mono&family=EB+Garamond:ital,wght@1,400;1,600&family=Mea+Culpa&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Cormorant:ital,wght@1,600&family=Cutive+Mono&family=DotGothic16&family=EB+Garamond:ital,wght@1,400;1,600&family=Knewave&family=Lexend+Zetta:wght@600&family=Mea+Culpa&family=Moo+Lah+Lah&family=Noto+Sans&family=Roboto+Mono:ital,wght@1,500&family=Rubik+Beastly&display=swap');
 
 
 
@@ -28,7 +28,7 @@ a:hover{
     color: transparent; 
     text-shadow: 0 0 2px #000; 
     transition: all 250ms ease-in; 
-  }
+}
 
 ::-webkit-scrollbar {
     background: #fff;
@@ -40,12 +40,18 @@ a:hover{
     background: #e1e0f5;
 }
 
+
 audio{
   display: block;
   margin: auto;
   position: relative;
   top: 5%;
+  opacity: 40%;
+  
 }
+
+
+
 
 
 .titlecircle {
@@ -193,6 +199,19 @@ audio{
     animation: slide_side 2s alternate infinite;
 
 }
+
+#circle6{
+    background-color:rgb(255, 255, 255);
+    border: solid 1px rgb(255, 0, 119);
+    position: absolute;
+    left:16%;
+    top:67%;
+    width: 50px;
+    height: 50px;
+
+}
+
+
 
 .rotate{
     animation: rotate 13s linear infinite;
@@ -353,6 +372,29 @@ audio{
     z-index: 1;   
 }
 
+#star14{
+    font-size: 360pt;
+    -webkit-text-stroke: 1px rgb(146, 134, 255, 0.459);
+    color:rgba(255, 255, 255, 0.459);
+    position: absolute;
+    left:3%;
+    top:48%; 
+    z-index: 0;   
+}
+
+
+#star15{
+    font-size:200pt;
+    position: absolute;
+    left:77%;
+    top:61%;
+    -webkit-text-stroke: 1px rgb(205, 241, 0);
+    color:rgba(213, 255, 166, 0.534)
+}
+
+
+
+
 #type1{
     font-family: 'Roboto Mono', monospace;
     font-size: 13pt;
@@ -449,11 +491,12 @@ audio{
     font-family: 'EB Garamond', serif;
     font-size: 80pt;
     position: absolute;
-    left:30%;
-    top:50%;
+    left:25%;
+    top:47%;
     color:#00000000;
     -webkit-text-stroke: 1px rgb(8, 120, 143);
     transform-origin: 500px;
+    z-index: 2;
 }
 
 #type10{
@@ -481,12 +524,12 @@ audio{
 }
 
 #type12{ 
-    font-family: 'Cormorant', serif;
+    font-family: 'Lexend Zetta', sans-serif;
     font-size: 80pt;
     position: absolute;
     left:67%;
     top:85%;
-    color:#ffffff90;
+    color:#ffffff00;
     -webkit-text-stroke: 1px rgb(121, 155, 89);
 }
 
@@ -506,10 +549,89 @@ audio{
 #type14{
     font-family: 'Mea Culpa', cursive;
     position: absolute;
-    left:25%;
+    left:22%;
     top:45%;
     font-size: 60pt;
     color:rgba(0, 0, 0, 0.171);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+#type15{
+    font-family: 'Moo Lah Lah', cursive;
+    font-size: 50pt;
+    z-index: 0;
+    position: absolute;
+    left:78%;
+    top:53%;
+    color:#ffffff33;
+    -webkit-text-stroke: 1px rgb(0, 255, 34);
+}
+
+#type16{
+    font-family: 'Moo Lah Lah', cursive;
+    font-size: 50pt;
+    z-index: 0;
+    position: absolute;
+    left:73%;
+    top:53.5%;
+    color:#ffffff00;
+    -webkit-text-stroke: 1px rgb(90, 71, 179);
+}
+
+#type17{
+    font-size: 100px;
+    font-family: 'Lexend Zetta', sans-serif;
+    position:absolute;
+    left: 10%;
+    top:58%;
+    color:rgb(57, 218, 129);
+    animation: slide_side 9s alternate infinite;
+}
+
+#type18{ 
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 70pt;
+    position: absolute;
+    left:16%;
+    top:59%;
+    color:rgba(95, 95, 95, 0);
+    -webkit-text-stroke: 1px rgb(93, 144, 255);
+    z-index: -1;
+
+}
+
+#type19{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 70pt;
+    position: absolute;
+    left:60%;
+    top:64%;
+    color:rgba(95, 95, 95, 0);
+    -webkit-text-stroke: 1px #ffc400;
+    z-index: 1;
+
+}
+
+#type20{
+    font-family: 'Knewave', cursive;
+    font-size:50pt;
+    position: absolute;
+    left:76%;
+    top:66%;
+    color:rgb(255, 255, 255);
+    z-index: 0;
+    
+}
+
+#type21{
+    font-family: 'Noto Sans', sans-serif;
+    font-size:50pt;
+    position: absolute;
+    left:26%;
+    top:66%;
+    color:rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgba(255, 0, 0, 0.671);
+    z-index: 0;
+    text-decoration: wavy underline 2px #fff;
 }
 

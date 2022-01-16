@@ -162,7 +162,7 @@ audio{
     height: 100px;
     border: 1px solid rgb(255, 79, 47);
     background-color: #fff;
-    left: 25%;
+    left: 16%;
     top: 90%;
 
 }
@@ -291,7 +291,7 @@ audio{
     position: absolute;
     left:-20%;
     top:6%;  
-    z-index: 1;  
+    z-index: 0;  
 }
 
 #star6{
@@ -390,6 +390,69 @@ audio{
     top:61%;
     -webkit-text-stroke: 1px rgb(205, 241, 0);
     color:rgba(213, 255, 166, 0.534)
+}
+
+
+#star16{ 
+    font-size:50pt;
+    position: absolute;
+    left:25%;
+    top:76%;
+    color:rgb(217, 255, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+}
+
+
+#star17{ 
+    font-size:70pt;
+    position: absolute;
+    left:77%;
+    top:70%;
+    color:rgb(144, 215, 224);
+    -webkit-text-stroke: 1px
+
+}
+
+#star18{ 
+    font-size:200pt;
+    position: absolute;
+    left:33%;
+    top:80%;
+    color:rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px rgb(255, 153, 0);
+
+}
+
+#star19{ 
+    font-size:70pt;
+    position: absolute;
+    left:30%;
+    top:88%;
+    color:rgba(255, 255, 255, 0.308);
+    -webkit-text-stroke: 1px rgb(54, 190, 127);
+
+}
+
+#star20{ 
+    font-size:80pt;
+    position: absolute;
+    left:80%;
+    top:92%;
+    color:rgba(255, 255, 255, 0.623);
+    -webkit-text-stroke: 1px rgb(255, 145, 0);
+
+}
+
+#star21{
+    font-size: 800pt;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.11);
+    position: absolute;
+    left:20%;
+    top:77%;  
+    z-index: -1; 
+
 }
 
 
@@ -493,8 +556,8 @@ audio{
     position: absolute;
     left:25%;
     top:47%;
-    color:#00000000;
-    -webkit-text-stroke: 1px rgb(8, 120, 143);
+    color: #fffc62ab;
+    -webkit-text-stroke: 1px rgb(194, 194, 194);  
     transform-origin: 500px;
     z-index: 2;
 }
@@ -529,7 +592,7 @@ audio{
     position: absolute;
     left:67%;
     top:85%;
-    color:#ffffff00;
+    color:#ffffff;
     -webkit-text-stroke: 1px rgb(121, 155, 89);
 }
 
@@ -635,3 +698,50 @@ audio{
     text-decoration: wavy underline 2px #fff;
 }
 
+#type22{
+    font-family: 'EB Garamond', serif;
+    font-size: 60pt;
+    position: absolute;
+    left:60%;
+    top:73%;
+    -webkit-text-stroke: 1px rgba(162, 0, 255, 0.671);
+    color:rgba(206, 206, 206, 0);
+    transform-origin: -150px;
+}
+
+#type23{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 80pt;
+    position: absolute;
+    left:73%;
+    top:86%;
+    color:#ffffff00;
+    -webkit-text-stroke: 1px rgb(255, 0, 179);
+    
+
+}
+
+#type24{
+    font-family: 'EB Garamond', serif;
+    font-size: 80pt;
+    position: absolute;
+    left:8%;
+    top:89%;
+    color:#ffffff00;
+    -webkit-text-stroke: 1px rgb(0, 4, 255);
+    text-decoration: dashed underline 4px #a5d2ff;
+
+}
+
+#type25{
+    font-family: 'Mea Culpa', cursive;
+    font-size: 80pt;
+    position: absolute;
+    left:53%;
+    top:95%;
+    color:#ffffff00;
+    -webkit-text-stroke: 1px rgb(29, 29, 29);
+    animation: slide_side 10s alternate infinite;
+    text-decoration: dotted underline 4px #c8ff00;
+
+}
